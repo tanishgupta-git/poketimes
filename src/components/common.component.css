@@ -1,0 +1,17 @@
+.post{
+    transition: all 2s;
+    cursor: pointer;
+}
+.post:hover{
+    transform:translateY(-10px);
+}
+.home .card{
+    overflow: hidden;
+    padding-left: 80px;
+}
+.home .card img{
+    position: absolute;
+    bottom:-40px;
+    left:-80px;
+    opacity: 0.8;
+}
